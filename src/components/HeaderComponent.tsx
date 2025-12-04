@@ -44,25 +44,15 @@ const CreatorFlowLanding = () => {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Content */}
             <div className="flex flex-col items-center text-center space-y-8">
-              {/* Customer Avatars */}
-              <div className="flex items-center gap-3">
-                <div className="flex -space-x-3">
-                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 border-3 border-white shadow-md"></div>
-                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 border-3 border-white shadow-md"></div>
-                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-teal-400 to-cyan-500 border-3 border-white shadow-md"></div>
-                </div>
-                <span className="text-gray-700 font-medium">100% Zufriedene Kunden</span>
-              </div>
 
               {/* Main Heading */}
               <div className="space-y-2">
                 <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 leading-none">
                   Social Media
                 </h1>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none flex flex-wrap items-center gap-3">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none flex flex-nowrap items-center gap-3">
                   <span className="text-gray-900">Das </span>
-                  <span className="text-emerald-500">Raus Sticht</span>
-
+                  <span className="text-emerald-500 whitespace-nowrap">Raus Sticht</span>
                 </h1>
               </div>
 
