@@ -30,7 +30,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden">
       
 
       {/* Header */}

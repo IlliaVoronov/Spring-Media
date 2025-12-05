@@ -12,8 +12,18 @@ function App() {
 
 
   return (
-    <div>
-      
+    <div className="min-h-screen bg-white relative overflow-hidden">
+      {/* Background grid pattern */}
+      <div
+        className="absolute inset-0 opacity-[0.02]"
+        style={{
+          backgroundImage: `
+            linear-gradient(to right, #000 1px, transparent 1px),
+            linear-gradient(to bottom, #000 1px, transparent 1px)
+          `,
+          backgroundSize: '40px 40px'
+        }}
+      />
       <Hero />
       <ServicesSection />
       <AboutSection />
