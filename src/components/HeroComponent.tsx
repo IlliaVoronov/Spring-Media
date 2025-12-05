@@ -55,7 +55,7 @@ const Hero = () => {
         </div>
       </header>
 
-      {/* Main Content - Centered */}
+      {/* Main Content*/}
       <main className="relative z-10 px-6 md:px-12 lg:px-20 flex items-center min-h-[calc(100vh-120px)]">
         <div className="max-w-7xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
@@ -64,17 +64,17 @@ const Hero = () => {
 
               {/* Main Heading */}
               <div className="space-y-2">
-                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 leading-none">
+                <h1 className="animate-fade-right text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 leading-none">
                   Social Media
                 </h1>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none flex flex-nowrap items-center gap-3">
+                <h1 className="animate-fade-right text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none flex flex-nowrap items-center gap-3">
                   <span className="text-gray-900">Das </span>
                   <span className="text-emerald-500 whitespace-nowrap">Raus Sticht</span>
                 </h1>
               </div>
 
               {/* Description */}
-              <p className="text-lg flex md:text-xl text-gray-600 leading-relaxed max-w-xl">
+              <p className="animate-fade-up animate-delay-[450ms] text-lg flex md:text-xl text-gray-600 leading-relaxed max-w-xl">
                 Wir übernehmen deinen kompletten Social-Media-Auftritt und machen deine Marke auf Instagram, TikTok & Co. erfolgreich.
               </p>
 
