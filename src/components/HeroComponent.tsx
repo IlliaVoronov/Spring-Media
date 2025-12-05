@@ -74,7 +74,7 @@ const Hero = () => {
               </div>
 
               {/* Description */}
-              <p className="animate-fade-up animate-delay-[450ms] text-lg flex md:text-xl text-gray-600 leading-relaxed max-w-xl">
+              <p className="animate-fade-up animate-delay-450 text-lg flex md:text-xl text-gray-600 leading-relaxed max-w-xl">
                 Wir übernehmen deinen kompletten Social-Media-Auftritt und machen deine Marke auf Instagram, TikTok & Co. erfolgreich.
               </p>
 
