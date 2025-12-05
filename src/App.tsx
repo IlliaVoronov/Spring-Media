@@ -1,4 +1,11 @@
-import CreatorFlowLanding from "./components/HeaderComponent"
+import AboutSection from "./components/AboutComponent"
+import ReadyToScaleSection from "./components/CTAComponent"
+import FAQComponent from "./components/FAQComponent"
+import Footer from "./components/FooterComponent"
+import Hero from "./components/HeroComponent"
+import PainPointsSection from "./components/PainPointsComponent"
+import ServicesSection from "./components/ServicesComponent"
+import TestimonialsSection from "./components/TestimonyComponent"
 
 
 function App() {
@@ -6,7 +13,15 @@ function App() {
 
   return (
     <div>
-      <CreatorFlowLanding />
+      
+      <Hero />
+      <ServicesSection />
+      <AboutSection />
+      <PainPointsSection />
+      <TestimonialsSection />
+      <FAQComponent />
+      <ReadyToScaleSection />
+      <Footer />
     </div>
   )
 }

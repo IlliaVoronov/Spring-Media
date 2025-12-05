@@ -1,15 +1,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 import BookCallButton from './CalendyButton';
-import ServicesComponent from './ServicesComponent';
-import AboutComponent from './AboutComponent';
-import TestimonialsComponent from './TestimonyComponent';
-import FAQComponent from './FAQComponent';
-import ReadyToScaleSection from './CTAComponent';
-import Footer from './FooterComponent';
-import PainPointsSection from './PainPointsComponent';
 
-const Landing = () => {
+const Hero = () => {
 
   const [isMuted, setIsMuted] = useState(true);
   const [progress, setProgress] = useState(0);
@@ -38,17 +31,7 @@ const Landing = () => {
 
   return (
     <div className="min-h-screen bg-white relative overflow-hidden">
-      {/* Background grid pattern */}
-      <div
-        className="absolute inset-0 opacity-[0.02]"
-        style={{
-          backgroundImage: `
-            linear-gradient(to right, #000 1px, transparent 1px),
-            linear-gradient(to bottom, #000 1px, transparent 1px)
-          `,
-          backgroundSize: '40px 40px'
-        }}
-      />
+      
 
       {/* Header */}
       <header className="sticky top-0 z-10 px-6 py-6 md:px-12 lg:px-20">
@@ -169,16 +152,8 @@ const Landing = () => {
           </div>
         </div>
       </main>
-      
-      <ServicesComponent />
-      <AboutComponent />
-      <PainPointsSection />
-      <TestimonialsComponent />
-      <FAQComponent />
-      <ReadyToScaleSection />
-      <Footer />
     </div>
   );
 };
 
-export default Landing;
+export default Hero;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FAQComponent = () => {
+const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
@@ -88,4 +88,4 @@ const FAQComponent = () => {
   );
 };
 
-export default FAQComponent;
+export default FAQSection;

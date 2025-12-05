@@ -1,6 +1,6 @@
 
 
-export default function AboutComponent() {
+export default function AboutSection() {
 
   return (
     <div>

@@ -1,4 +1,4 @@
-const TestimonialsComponent = () => {
+const TestimonialsSection = () => {
   const testimonials = [
     {
       username: "@mark_locus",
@@ -122,4 +122,4 @@ const TestimonialsComponent = () => {
   );
 };
 
-export default TestimonialsComponent;
+export default TestimonialsSection;
