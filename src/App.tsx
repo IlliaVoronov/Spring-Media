@@ -8,6 +8,7 @@ import Navbar from "./components/NavbarComponent"
 import PainPointsSection from "./components/PainPointsComponent"
 import ServicesSection from "./components/ServicesComponent"
 import TestimonialsSection from "./components/TestimonyComponent"
+import { Analytics } from "@vercel/analytics/next"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white relative overflow-hidden">
+      <Analytics />
       <BackgroundComponent />
       <Navbar />
       <Hero />
