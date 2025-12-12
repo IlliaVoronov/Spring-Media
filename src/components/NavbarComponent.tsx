@@ -43,7 +43,7 @@ export default function Navbar() {
 
       {/* Header */}
       <header
-        className={`sticky top-0 z-30 px-6 py-5 md:px-12 lg:px-20 border border-dashed border-gray-200 ${isOpen
+        className={`sticky top-0 z-30 px-6 py-5 md:px-12 lg:px-20 border-b border-dashed border-gray-200 ${isOpen
           ? 'bg-gray-900 text-white' // Dark background when open
           : 'bg-white' // White background when closed
           }`}
