@@ -20,7 +20,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="relative z-10 px-6 md:px-12 lg:px-20 md:pt-10">
+    <section className="relative z-10 px-6 md:px-12 lg:px-20 pt-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Testimonials */}
