@@ -1,3 +1,4 @@
+import BookCallWhiteButton from "./BookCallWhiteButton";
 import ScrollAnimationSection from "./ScrollAnimationComponent";
 
 const TestimonialsSection = () => {
@@ -5,18 +6,18 @@ const TestimonialsSection = () => {
     {
       username: "@mark_locus",
       avatar: "https://i.pravatar.cc/150?img=12",
-      text: "Patrick und Illia haben verrückte arbeit geleistet. Wir konnten 4 neue Mitarbeiter einstellen."
+      text: "Nach nur einer Woche Projekt, das Spring Media für mich durchgeführt hat, habe ich 10 % mehr Kunden in meinem Friseursalon."
     },
     {
-      username: "@tonysa",
-      avatar: "https://i.pravatar.cc/150?img=33",
-      text: "Seit wir mit Spring Media zusammenarbeiten ist unsere Kundschaft um 15% gestiegen."
+      username: "@bistro_neuewelt",
+      avatar: "/bistro_neuewelt_logo.jpg",
+      text: "Wir haben 4 neue Mitarbeiter eingestellt, die wir gesucht haben, nachdem Spring Media eine Anzeige für uns geschaltet hatte."
     },
-    {
-      username: "@johnbai",
-      avatar: "https://i.pravatar.cc/150?img=68",
-      text: "Ich liebe den Vibe den die Jungs mit sich bringen, total gelassen aber professionell zugleich. Einfach Klasse!"
-    }
+    // {
+    //   username: "@johnbai",
+    //   avatar: "https://i.pravatar.cc/150?img=68",
+    //   text: "Ich liebe den Vibe den die Jungs mit sich bringen, total gelassen aber professionell zugleich. Einfach Klasse!"
+    // }
   ];
 
   return (
@@ -74,7 +75,7 @@ const TestimonialsSection = () => {
               {/* Avatar */}
               <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gray-700 overflow-hidden">
                 <img
-                  src="https://i.pravatar.cc/150?img=45"
+                  src="/patrik_face.png"
                   alt="Team member"
                   className="w-full h-full object-cover"
                 />
@@ -86,20 +87,7 @@ const TestimonialsSection = () => {
               </h3>
 
               {/* CTA Button */}
-              <button className="group bg-white text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl flex items-center gap-3 mx-auto mb-8">
-                <span>Kostenloses Erstgespräch Buchen</span>
-                <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center group-hover:translate-x-1 transition-transform">
-                  <svg
-                    className="w-4 h-4 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </button>
+              <BookCallWhiteButton />
 
               {/* Contact Info */}
               <div className="text-gray-400 text-sm">
@@ -113,11 +101,11 @@ const TestimonialsSection = () => {
               </div>
 
               {/* Bottom Links */}
-              <div className="mt-8 pt-6 border-t border-gray-800 flex justify-center gap-6 text-sm text-gray-500">
+              {/* <div className="mt-8 pt-6 border-t border-gray-800 flex justify-center gap-6 text-sm text-gray-500">
                 <button className="hover:text-gray-300 transition-colors">Videos Edited</button>
                 <button className="hover:text-gray-300 transition-colors">Send Me Samples</button>
                 <button className="hover:text-gray-300 transition-colors">Long</button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

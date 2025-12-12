@@ -3,19 +3,21 @@ import ScrollAnimationSection from "./ScrollAnimationComponent";
 
 const PainPointsSection = () => {
   const problems = [
-    "Editing takes me forever.",
-    "I miss uploads trying to finish videos.",
-    "I hate editing. I just want to record.",
-    "My videos don't look pro enough.",
-    "Captions are a pain to add."
+    "I don't know how to create scial media brand",
+    "I don't have stategy of what to post",
+    "I don't know if my social media is actually making money (ROI).",
+    "I worry the agency won't capture my unique brand voice and culture.",
+    "I don't have time to film, edit, and posting.",
+    "I need compelling content (photos, videos, graphics) but I don't have a design team"
   ];
 
   const solutions = [
-    "Done-for-you edits, always on time.",
-    "Fast turnaround",
-    "You record. We handle the rest.",
-    "Cinematic, clean, and branded.",
-    "Burned-in, style-matched captions."
+    "We create your digital brand, as we've done many times",
+    "We make a specific strategy for your brand",
+    "We provide reporting that clearly shows the results.",
+    "We act as a seamless extension of your team, ensuring every post is authentically you.",
+    "We handle all the filming, editing, and posting.",
+    "We create all the stunning, high-quality visuals and copy your brand needs to stand out.",
   ];
 
   return (
