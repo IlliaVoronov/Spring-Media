@@ -2,7 +2,7 @@
 
 const ReadyToScaleSection = () => {
   return (
-    <section className="relative z-10 px-6 md:px-12 lg:px-20 py-20 md:py-32 ">
+    <section id="contact" className="relative z-10 px-6 md:px-12 lg:px-20 py-20 md:py-40 ">
       <div className="max-w-6xl mx-auto">
         <div className="relative bg-gray-900 text-white p-12 md:p-16 rounded-3xl overflow-hidden">
           {/* Decorative Elements */}

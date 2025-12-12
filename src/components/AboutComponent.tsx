@@ -5,7 +5,8 @@ export default function AboutSection() {
   return (
     <div>
       {/* Über Uns Section */}
-      <section className="relative z-10 px-6 md:px-12 lg:px-20 py-20 md:py-32">
+      <section id="about" className="relative z-10 px-6 md:px-12 lg:px-20 py-20 md:py-32">
+
         <div className="max-w-7xl mx-auto flex flex-col justify-center text-center items-center">
           {/* Section Label */}
           <div className="flex items-center justify-center gap-2 mb-12">
