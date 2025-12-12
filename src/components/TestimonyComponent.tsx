@@ -1,3 +1,5 @@
+import ScrollAnimationSection from "./ScrollAnimationComponent";
+
 const TestimonialsSection = () => {
   const testimonials = [
     {
@@ -18,13 +20,13 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="relative z-10 px-6 md:px-12 lg:px-20 py-20 md:py-32">
+    <section className="relative z-10 px-6 md:px-12 lg:px-20 md:pt-10">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Testimonials */}
           <div className="space-y-6">
             {/* Section Label */}
-            <div className="flex items-center gap-2 mb-8">
+            <div className="flex items-center justify-center gap-2 mb-8 bg-white border border-dashed border-gray-200 w-fit rounded-full p-2 ">
               <svg className="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2L15.5 8.5L22 9.5L17 14.5L18 21L12 18L6 21L7 14.5L2 9.5L8.5 8.5L12 2Z" />
               </svg>
@@ -32,9 +34,11 @@ const TestimonialsSection = () => {
             </div>
 
             {/* Heading */}
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-              Was Kunden sagen
-            </h2>
+            <ScrollAnimationSection animationClass="animate-fade-down">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
+                Was Kunden sagen
+              </h2>
+            </ScrollAnimationSection>
 
             {/* Description */}
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-12">
@@ -44,13 +48,13 @@ const TestimonialsSection = () => {
             {/* Testimonial Cards */}
             <div className="space-y-4">
               {testimonials.map((testimonial, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-gray-50 p-6 rounded-2xl border border-gray-100 hover:border-emerald-200 transition-colors"
                 >
                   <div className="flex items-start gap-4">
-                    <img 
-                      src={testimonial.avatar} 
+                    <img
+                      src={testimonial.avatar}
                       alt={testimonial.username}
                       className="w-12 h-12 rounded-full object-cover shrink-0"
                     />
@@ -69,8 +73,8 @@ const TestimonialsSection = () => {
             <div className="bg-gray-950 text-white p-8 md:p-12 rounded-3xl text-center">
               {/* Avatar */}
               <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gray-700 overflow-hidden">
-                <img 
-                  src="https://i.pravatar.cc/150?img=45" 
+                <img
+                  src="https://i.pravatar.cc/150?img=45"
                   alt="Team member"
                   className="w-full h-full object-cover"
                 />
@@ -85,10 +89,10 @@ const TestimonialsSection = () => {
               <button className="group bg-white text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl flex items-center gap-3 mx-auto mb-8">
                 <span>Kostenloses Erstgespräch Buchen</span>
                 <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center group-hover:translate-x-1 transition-transform">
-                  <svg 
-                    className="w-4 h-4 text-white" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
+                  <svg
+                    className="w-4 h-4 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="2.5"
                   >
@@ -100,7 +104,7 @@ const TestimonialsSection = () => {
               {/* Contact Info */}
               <div className="text-gray-400 text-sm">
                 <p className="mb-2">Lieber per E-Mail?</p>
-                <a 
+                <a
                   href="mailto:infosocialspring@gmail.com"
                   className="text-emerald-400 hover:text-emerald-300 transition-colors"
                 >

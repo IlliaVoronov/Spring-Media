@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
-import BookCallButton from './CalendyButton';
+import BookCallButton from './BookCallButton';
 
 const Hero = () => {
 
@@ -32,38 +32,15 @@ const Hero = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
       
-
-      {/* Header */}
-      <header className="sticky top-0 z-10 px-6 py-6 md:px-12 lg:px-20">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
-          {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-lg">
-              <img src="/logo.jpg" alt="logo" className='rounded-2xl' />
-            </div>
-            <span className="text-2xl font-bold text-gray-900">Spring Media</span>
-          </div>
-
-          {/* Menu Button */}
-          <button className="w-14 h-14 bg-gray-900 rounded-2xl flex items-center justify-center hover:bg-gray-800 transition-colors">
-            <div className="flex flex-col gap-1.5">
-              <div className="w-6 h-0.5 bg-white rounded-full"></div>
-              <div className="w-6 h-0.5 bg-white rounded-full"></div>
-              <div className="w-6 h-0.5 bg-white rounded-full"></div>
-            </div>
-          </button>
-        </div>
-      </header>
-
       {/* Main Content*/}
       <main className="relative z-10 px-6 md:px-12 lg:px-20 flex items-center min-h-[calc(100vh-120px)]">
         <div className="max-w-7xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Content */}
-            <div className="flex flex-col items-center text-center space-y-8">
+            <div className="flex flex-col items-center text-center space-y-8 ">
 
               {/* Main Heading */}
-              <div className="space-y-2">
+              <div className="space-y-2 mt-8">
                 <h1 className="animate-fade-right text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 leading-none">
                   Social Media
                 </h1>
@@ -74,8 +51,8 @@ const Hero = () => {
               </div>
 
               {/* Description */}
-              <p className="animate-fade-up animate-delay-[450ms] text-lg flex md:text-xl text-gray-600 leading-relaxed max-w-xl">
-                Wir übernehmen deinen kompletten Social-Media-Auftritt und machen deine Marke auf Instagram, TikTok & Co. erfolgreich.
+              <p className="animate-fade-up animate-delay-450 text-lg flex md:text-xl text-gray-600 leading-relaxed max-w-xl">
+                Medienagentur für Unternehmen, die über Instagram, TikTok & Co. mehr Kunden, mehr Bindung und eine klar erkennbare Marke aufbauen möchten.
               </p>
 
               {/* CTA Button */}
@@ -85,7 +62,7 @@ const Hero = () => {
             </div>
 
             {/* Right Video Container*/}
-            <div className="relative  flex justify-center lg:justify-end">
+            <div className="relative  flex justify-center mt-8 lg:justify-end">
               <div className="relative w-full max-w-[400px] aspect-9/16 rounded-3xl overflow-hidden shadow-2xl bg-black">
                 {/* Video element */}
                 <video

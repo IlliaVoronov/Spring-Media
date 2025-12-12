@@ -3,10 +3,10 @@ import ScrollAnimationSection from "./ScrollAnimationComponent";
 
 const ServicesSection = () => {
   return (
-    <section className="relative z-10 px-6 md:px-12 lg:px-20 py-20 md:py-32">
+    <section id="services" className="relative z-10 px-6 md:px-12 lg:px-20 pt-20 ">
       <div className="max-w-7xl mx-auto">
         {/* Section Label */}
-        <div className="flex items-center justify-center gap-2 mb-12">
+        <div className="mx-auto flex items-center justify-center gap-2 mb-6 bg-white border border-dashed border-gray-200 w-fit rounded-full p-2 ">
           <svg className="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 2L15.5 8.5L22 9.5L17 14.5L18 21L12 18L6 21L7 14.5L2 9.5L8.5 8.5L12 2Z" />
           </svg>
