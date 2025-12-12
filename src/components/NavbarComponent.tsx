@@ -61,10 +61,10 @@ export default function Navbar() {
           {/* Desctop Menu Button (Hamburger/Close Icon) */}
           <div className="hidden md:flex flex-1 text-center  justify-center gap-14 md:text-xl">
             <button
-              onClick={() => scrollTo("about")}
+              onClick={() => scrollTo("reviews")}
               className="cursor-pointer relative text-gray-900 transition-colors duration-200 group py-1"
             >
-              About
+              Reviews
               <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-emerald-500 group-hover:w-full group-hover:left-0 transition-all duration-300 ease-out"></span>
             </button>
             <button
@@ -135,7 +135,7 @@ export default function Navbar() {
           </div>
 
           <ul className="space-y-4 ">
-            <li><button onClick={() => scrollTo("about")} className="w-full text-right py-2 text-lg font-medium">About</button></li>
+            <li><button onClick={() => scrollTo("reviews")} className="w-full text-right py-2 text-lg font-medium">Reviews</button></li>
             <li><button onClick={() => scrollTo("services")} className="w-full text-right py-2 text-lg font-medium">Services</button></li>
             <li><button onClick={() => scrollTo("faq")} className="w-full text-right py-2 text-lg font-medium">FAQ</button></li>
             <li className="pt-4 flex justify-end"><BookCallButton txt="Kontakt " /></li>
