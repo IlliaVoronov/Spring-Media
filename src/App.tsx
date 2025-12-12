@@ -8,7 +8,7 @@ import Navbar from "./components/NavbarComponent"
 import PainPointsSection from "./components/PainPointsComponent"
 import ServicesSection from "./components/ServicesComponent"
 import TestimonialsSection from "./components/TestimonyComponent"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
